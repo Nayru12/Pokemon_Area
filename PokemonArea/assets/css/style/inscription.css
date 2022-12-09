@@ -1,0 +1,283 @@
+/* 
+---------------------------------------------
+Inscription Page Style
+--------------------------------------------- 
+*/
+
+.item-details-page {
+    background-image: url(../../images/bull.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0px 120px 0px;
+    position: relative;
+  }
+  
+  .item-details-page:after {
+    background-image: url(/assets/images/category-collection-dec.png);
+    width: 300px;
+    height: 282px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    content: '';
+    z-index: 1;
+  }
+  
+  .item-details-page .left-image {
+    margin-right: 30px;
+  }
+  
+  .item-details-page h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .item-details-page span.author {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .item-details-page span.author img {
+    margin-right: 15px;
+  }
+  
+  .item-details-page span.author h6 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .item-details-page span.author a {
+    color: rgb(0, 90, 150);
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .item-details-page p {
+    margin-bottom: 30px;
+  }
+  
+  .item-details-page span {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  .item-details-page span strong {
+    font-size: 20px;
+    color: rgb(0, 90, 150);
+  }
+  
+  .item-details-page p {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .item-details-page span.bid,
+  .item-details-page span.owner,
+  .item-details-page span.ends  {
+    line-height: 35px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .item-details-page span.bid em,
+  .item-details-page span.ends em,
+  .item-details-page span.owner em {
+    font-style: normal;
+    color: #afafaf;
+  }
+  
+  .item-details-page form {
+    margin-top: 40px;
+  }
+  
+  
+  .item-details-page form label {
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .item-details-page form input {
+    width: 100px;
+    height: 46px;
+    border: 1px solid rgb(0, 90, 150);
+    outline: none;
+    border-radius: 23px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  .item-details-page form input::placeholder {
+    color: #fff;
+  }
+  
+  .item-details-page button {
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(0, 90, 150);
+    border: 1px solid rgb(0, 90, 150)c;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .item-details-page button:after {
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  
+  .item-details-page button:hover {
+    background-color: #fff;
+    color: rgb(0, 90, 150);
+    border: 1px solid #fff;
+  }
+  
+  .current-bid {
+    margin-top: 120px;
+  }
+  
+  .current-bid select {
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .current-bid .mini-heading h4 {
+    background-color: rgb(0, 90, 150);
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 22px;
+  }
+  
+  .current-bid .item {
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #282b2f;
+    border: 1px solid #404245;
+  }
+  
+  .current-bid .item .left-img {
+    flex-basis: 80%;
+    display: inline-flex;
+  }
+  
+  .current-bid .item .right-content {
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .current-bid .item .right-content h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .current-bid .item .right-content a {
+    font-size: 15px;
+    color: rgb(0, 90, 150);
+    font-weight: 700;
+  }
+  
+  .current-bid .item .right-content .line-dec {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 25px 0px;
+  }
+  
+  .current-bid .item .right-content h6 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  
+  .current-bid .item .right-content h6 em {
+    font-size: 18px;
+    color: rgb(0, 90, 150);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .current-bid .item .right-content span.date {
+    font-size: 15px;
+    color: rgb(0, 90, 150);
+  }
+  
+  
+  /* 
+  ---------------------------------------------
+  Create Page Style
+  --------------------------------------------- 
+  */
+  
+  #contact {
+    background-color: #37393c;
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin-bottom: 120px;
+  }
+  
+  #contact input {
+    width: 100%;
+    height: 46px;
+    text-align: left;
+    padding: 0px 15px;
+    background-color: #282b2f;
+    border: 1px solid #404245;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #afafaf;
+  }
+  
+  #contact input::placeholder {
+    color: #afafaf;
+  }
+  
+  #contact label {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  #contact input#file {
+    padding: 8px 0px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+  }
+  
+  #contact button {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  

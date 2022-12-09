@@ -1,0 +1,90 @@
+
+  /*.header-area .main-nav {
+    min-height: 80px;
+    background: transparent;
+    display: flex;
+    background-color: #7553fcd3;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+  .header-area .main-nav .nav li:hover a,
+  .header-area .main-nav .nav li a.active {
+    color: #7553fc;
+    background-color: #fff;
+  }
+  */
+.col-lg-12-offer 
+{
+
+    text-align: center;
+    margin-left:120px ;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(0, 90, 150, 0.645) ;
+    width: 900px;
+
+}
+.col-lg-12-offer h6
+{
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+}
+.col-lg-12-offer form button{
+    background-color : #a1180e;
+    color: #fff;
+    width :125px;
+    height: 30px;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+
+    margin: 15px;
+    text-align: center;
+    }
+.col-lg-12-offer form button:hover {
+    background-color: #fff;
+    color :#a1180e;
+    opacity: 1;
+}
+
+.col-lg-12-offer form input{
+    background-color: #fff;
+    width :175px;
+    height : 25px;
+    border: none;
+    border-radius : 10px ;
+    text-align: center;
+    margin: 15px;
+
+}
+.col-lg-12-offer form select{
+    background-color: #fff;
+    
+    width :150px;
+    height : 25px;
+    border: none;
+    border-radius : 10px ;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 15px;
+}
+.entre-tabl
+{
+    background-color: rgba(0, 90, 150) ;
+    text-align: center;
+    color: white;
+}
+.table{
+
+    color: white;
+    
+}
+.table table
+{
+    background-color: rgba(0, 90, 150, 0.436);
+    align-items: center;
+    max-width: 900px;
+}
+.table img {
+    width: 164px;
+    height: 225px;
+}

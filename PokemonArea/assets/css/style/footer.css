@@ -1,0 +1,27 @@
+/* 
+---------------------------------------------
+Footer Style
+--------------------------------------------- 
+*/
+
+footer {
+    background: rgb(0, 90, 150);
+    background: linear-gradient(132deg, rgba(0,90,150,1) 25%, rgba(35,84,140,1) 100%);
+    text-align: center;
+    padding: 25px 0px;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
+  footer p a {
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s;
+  }
+  
+  footer p a:hover {
+    color: #fff;
+    opacity: 0.75;
+  }

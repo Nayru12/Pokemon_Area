@@ -1,0 +1,49 @@
+.main-banner-questions {
+    background-image: url(https://zupimages.net/up/22/49/b2wm.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 240px;
+    background-color: #2a2a2a;
+}
+  
+.main-banner-questions h6 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+  
+.main-banner-questions h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.main-banner-questions h3{
+    text-align: center;
+    text-shadow: 2px 0 rgb(71, 0, 186), -2px 0 rgb(71, 0, 186), 0 2px rgb(71, 0, 186), 0 -2px rgb(71, 0, 186),
+    1px 1px rgb(71, 0, 186), -1px -1px rgb(71, 0, 186), 1px -1px rgb(71, 0, 186), -1px 1px rgb(71, 0, 186);
+}
+  
+.main-banner-questions p {
+    height: 100px;
+    width:1000px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:15px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgba(97, 54, 113, 0.441); 
+    box-sizing: border-box;
+}
+
+.main-banner-questions a {
+    color: rgb(71, 0, 186);
+}
+

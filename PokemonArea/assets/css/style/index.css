@@ -1,0 +1,57 @@
+.main-banner-home {
+    background-image: url(../../images/pokeball.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 240px;
+    background-color: #2a2a2a;
+    align-items: center;
+  }
+  
+  .main-banner-home h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px #000000;
+    text-align: center;
+  }
+
+  .main-banner-home h3{
+    text-shadow: 1px 2px 2px #000000;
+    text-align: center;
+  }
+  
+  .main-banner-home p {
+    margin-top: 100px;
+    text-shadow: 1px 2px 2px #000000;
+    
+
+  }
+  
+  .main-banner-home a {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .main-banner-home .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    position: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .main-banner-home .border-button {
+    margin-right: 15px;
+  }
+
+  .main-banner-home .item{
+
+    align-items: center;
+    position: center;
+    text-align: center;
+  }
